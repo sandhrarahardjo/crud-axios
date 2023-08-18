@@ -23,8 +23,7 @@ function App() {
       <table className="table">
         <thead>
           <tr>
-          {/* <th>id</th> */}
-          <th>name</th>
+          <th>Name</th>
           <th>Action</th>
           </tr>
         </thead>
@@ -32,7 +31,6 @@ function App() {
         { records.length > 0 ? <>{
           records.map((d, i) => (
             <tr key={i}>
-              {/* <td>{d.id}</td> */}
               <td>{d.name}</td>             
               <td>
                 <Link to={`/update/${d.id}`} className="btn btn-sm btn-success">Update</Link>

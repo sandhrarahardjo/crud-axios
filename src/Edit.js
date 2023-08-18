@@ -33,7 +33,7 @@ function Edit() {
             />
           </div>
           <div>
-            <label htmlFor="name">name:</label>
+            <label htmlFor="name">Name:</label>
             <input type="text" name='name' value={data.name} className='form-control'
             onChange={e => setData({...data, name: e.target.value})}/>
           </div><br />

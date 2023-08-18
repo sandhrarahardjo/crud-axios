@@ -27,7 +27,7 @@ function Add(){
               onChange={e=>setInputData({...inputData, id: e.target.value})}/>
           </div>
           <div>
-          <label htmlFor="name">name:</label>
+          <label htmlFor="name">Name:</label>
           <input type="text" name='name' className='form-control'
           onChange={e=>setInputData({...inputData, name: e.target.value})}/>
           </div><br />
